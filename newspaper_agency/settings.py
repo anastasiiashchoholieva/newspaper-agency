@@ -25,6 +25,8 @@ SECRET_KEY = "django-insecure-jw+yn1qh!u%8gdsn9j8+1(yybe!=q!y3(7r#$_e6f!6js6yj9t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ASSETS_ROOT = "/static/assets"
+
 ALLOWED_HOSTS = []
 
 
@@ -64,6 +66,8 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "agency.context_processors.cfg_assets_root",
+
             ],
         },
     },
@@ -120,6 +124,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = "static/"
+
+STATICFILES_DIRS = (BASE_DIR / "static",)
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
