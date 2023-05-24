@@ -9,7 +9,7 @@ So I will always know, who were the publishers of each Newspaper.
 
 DB Structure:
 
-![Screenshot 2023-05-23 at 18.37.59.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F0v%2Fhyhchv796nlcry0m5smwm1jh0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_vhOiJA%2FScreenshot%202023-05-23%20at%2018.37.59.png)
+![database structure](static/assets/img/db_structure.png)
 
 ## Installation
 
@@ -22,6 +22,11 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+- To apply migrations to the database use command:
+```
+python manage.py migrate
+```
 
 - To run server use command:
 ```
