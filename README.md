@@ -65,4 +65,4 @@ python manage.py test
 ```
 
 ## Check it out 
-[Link to the source]
+[Newspaper agency project deployed to Render] https://newspaper-agency-yd78.onrender.com/
