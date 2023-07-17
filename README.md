@@ -1,4 +1,4 @@
-# Newspaper Agency
+# Newspaper Agency - PublishHub
 
 ## Project overview
 
